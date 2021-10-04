@@ -1,0 +1,7 @@
+<input type="text" [(ngModel)]="title" class="input-css">
+<button (click)="generatePdf()">Generate</button>
+<br>
+<div class="pdf-veiw">
+  <img src="assets/download.png" alt="" width="60" height="60">
+  <p>{{title}}</p>
+</div>
